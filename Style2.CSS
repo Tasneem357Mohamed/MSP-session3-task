@@ -1,0 +1,462 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter' , sans-serif;
+}
+/* Start Nav Par */
+nav{
+    background-color: #121913;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+}
+/*Start nav Logo*/
+.nav-logo
+{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: start;
+   padding: 20px 70px 0px 0px ;
+}
+.nav-logo .logo-image
+{
+    padding: 10px 0px 0px 75px ;
+    width: 15%;
+}
+.nav-logo .logo-title
+{
+    padding: 15px 10px;
+    margin-left: auto;
+    width: 15px;
+
+}
+/*End nav Logo*/
+
+/* start nav content*/
+.nav-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    padding: 50px 100px 0px 0px;
+}
+.nav-content ul
+{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.nav-content li
+{
+    font-size: 18px;
+    width: 15%;
+    padding: 10px 100px 0px 0px;
+}
+.nav-content .nav-content-btn button
+{
+    background-color: #7FBA00;
+    border-color: #7FBA00;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    border-style: none;
+    padding: 12px 20px 12px 23px;
+    margin-top: auto;
+}
+/* End nav content*/
+/* End Nav Par */
+
+/* Start create section*/
+
+#create-section
+{
+    background-color:#121913 ;
+    height: 550px;
+    color: white; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 110px 25px 100px 25px;
+}
+/* start create content */
+.text-content
+{
+    padding: 25px 25px 100px 25px;
+    width: 750px;
+}
+.create-header .non-bolding-header
+{
+    font-size: 30px;
+    font-weight: 100;
+}
+.create-header .bolding-header
+{
+    font-size: 37px;
+    font-weight: bold;
+}
+.text-content .create-paragraph
+{
+    padding: 35px 0px ;
+    color: #87868E;
+    font-size: 21px;
+}
+.text-content .create-btn button
+{
+    background-color: #7FBA00;
+    font-size: 25px;
+    width: 160px;
+    height: 55px;
+    text-align: center;
+    border-radius: 7px;
+    border-style: none;
+    color: white;
+}
+/* End create content */
+
+/* start create images */
+.Image-container
+{
+    padding: 110px 75px 550px 50px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grand-parent-images
+{
+    width: 415px;
+    height: 415px;
+    background-color: #121913;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 5px solid #7FBA00;
+    position: relative;
+}
+.parent-images
+{
+    width: 280px;
+    height: 280px;
+    background-color: rgba(217, 217, 217, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.child-images
+{
+    width: 178px;
+    height: 178px;
+    background-color: rgba(217, 217, 217, 0.25);
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.grand-parent-image 
+{
+    border-radius: 50%;
+    position: absolute;
+}
+.grand-parent-image img
+{
+    width: 78.5px;
+    height: 78.5px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.grand-img-1
+{
+    right: 2%;
+    bottom: 17%;
+    left: 85%;
+}
+.grand-img-2
+{
+    top: 10%;
+    right: 77%;
+}
+.grand-img-3
+{
+    right: 80%;
+    bottom: 13%;
+}
+.grand-img-4
+{
+    right: 20%;
+    bottom: 85%;
+}
+.child-image
+{
+    position: absolute;
+}
+.child-image img
+{
+    width: 55.5px;
+    height: 55.5px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+.child-img-1
+{
+    right: 0;
+    top: 0;
+
+}
+.child-img-2
+{
+    top: 75%;
+    right: 5%;
+    bottom: 0;
+}
+.child-img-3
+{
+    top: 20%;
+    right: 75%;
+}
+.child-logo-image
+{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.child-img-4 img
+{
+    border-style: none;
+    border: 0px solid ;
+    width: 50px;
+    height: 50px;
+}
+/* End create images */
+
+/* End create section*/
+
+/* Start committee section */
+#committee-section
+{
+    background-color: #121913;
+    height: 320px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0px 20px 0px 35px;
+}
+.committee-item-parent
+{
+    background-color: rgba(217, 217, 217, 0.15);
+    width: 25%;
+    height: 220px;
+    padding: 15px 0px 0px 30px;
+}
+.committee-item
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item-header
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 35px 15px 0px;
+}
+.item-name
+{
+    font-size: 15px;
+    padding: 10px 30px 10px 0px;
+}
+.item-icon{
+    color: #7FBA00;
+    font-size: 37.5px;
+    padding: 4.5px 10px 0px 0px;
+}
+.item-paragraph
+{
+    font-size: 15px;
+    color: rgba(135, 134, 142, 1);
+    padding: 0px 40px 20px 10px;
+}
+.item-learn-par
+{
+    font-size: 15px;
+    color: #7FBA00;
+    padding: 0px 210px 35px 0px;
+}
+.committee-text
+{
+    width: 40%;
+    align-content: start;
+    align-content: space-between;
+    padding: 0px 30px 30px 120px ;
+}
+.committee-text .committee-text-header
+{
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0px 0px 20px 0px ;
+}
+.committee-text .committee-text-paragraph
+{
+    color: rgba(135, 134, 142, 1);
+    padding: 0px 0px 20px 0px;
+}
+.committee-text .committee-text-btn button
+{
+    font-size: 17px;
+    color: white;
+    background-color: #7FBA00;
+    border-radius: 5px;
+    border-style: none;
+    width: 150px;
+    height: 35px;
+}
+/* End committee section */
+
+/* Start Make section */
+.parent-backgroung
+{
+    position: relative;
+}
+.background
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1050px;
+    background-image: url("./Assets:Session 3/image4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(10px);
+}
+.make-header 
+{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.make-header h1
+{
+    padding: 75px 190px;
+    font-size: 75px;
+}
+.make-images-container
+{
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.first-make-box
+{
+    width: 300px;
+    height: 300px;
+    padding: 0px 50px 0px 65px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    position: relative;
+}
+.first-img-1 img{
+    width: 210px;
+    height: 140px;
+    border: 5px solid #7FBA00;
+    border-radius: 30px;
+    position: absolute;
+    top: 140%;
+    left: 117%;
+}
+.first-img-2 img
+{
+    width: 220px;
+    height: 325px;
+    border: 5px solid #7FBA00;
+    border-radius: 30px;
+    position: absolute;
+    top: 23%;
+    left: 113%;
+}
+.first-img-3 img
+{
+    width: 195px;
+    height: 240px;
+    border: 5px solid #7FBA00;
+    border-radius: 30px;
+    position: absolute;
+    top: 70%;
+    left: 38%;
+}
+.second-make-box
+{
+    width: 300px;
+    height: 695px;
+    padding: 20px 50px 0px 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    position: relative;
+}
+.second-img-1 img
+{
+    width: 280px;
+    height: 563px;
+    border: 7px solid #7FBA00;
+    border-radius: 30px;
+    position: absolute;
+    top: 5%;
+    left: 99%;
+}
+.third-make-box
+{
+    width: 300px;
+    height: 355px;
+    padding: 20px 50px 0px 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    position: relative;
+}
+.third-img-1 img
+{
+    width: 220px;
+    height: 325px;
+    border: 5px solid #7FBA00;
+    border-radius: 30px;
+    position: absolute;
+    top: 70%;
+    left: 105%;
+}
+.third-img-2 img
+{
+    width: 210px;
+    height: 140px;
+    border: 5px solid #7FBA00;
+    border-radius: 30px;
+    position: absolute;
+    top: 23%;
+    left: 105%;
+}
+.third-img-3 img
+{
+    width: 195px;
+    height: 240px;
+    border: 5px solid #7FBA00;
+    border-radius: 30px;
+    position: absolute;
+    top: 60%;
+    left: 190%;
+}
+/* End Make section */
